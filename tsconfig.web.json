@@ -11,8 +11,26 @@
     "jsx": "react-jsx",
     "baseUrl": ".",
     "paths": {
-      "@renderer/*": [
-        "src/renderer/src/*"
+      "@assets/*": [
+        "src/renderer/src/assets/*"
+      ],  
+      "@app/*": [
+        "src/renderer/src/app/*"
+      ],
+      "@pages/*": [
+        "src/renderer/src/pages/*"
+      ],
+      "@widgets/*": [
+        "src/renderer/src/widgets/*"
+      ],
+      "@features/*": [
+        "src/renderer/src/features/*"
+      ],
+      "@entities/*": [
+        "src/renderer/src/entities/*"
+      ],
+      "@shared/*": [
+        "src/renderer/src/shared/*"
       ]
     }
   }
